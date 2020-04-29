@@ -6,7 +6,8 @@ body{
 }
 .navbar{
     background-color:#E0F4FF;
-    border:2px navy;
+    border:1px solid navy;
+    border-radius: 0%;
 }
 .navbar-brand{
     height: 80px;
