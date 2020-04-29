@@ -6,6 +6,7 @@ body{
 }
 .navbar{
     background-color:#E0F4FF;
+    border:2px navy;
 }
 .navbar-brand{
     height: 80px;
@@ -18,27 +19,27 @@ body{
 }
 .navbar-brand a h1{
     font-weight: bold;
-    color: navy;
-    
+    color: navy; 
 }
 .navbar-header {
     margin-left: 0px;
 }
-.navbar-collapse,.navbar-default{
-    border-color: navy;
-}
+
 .navbar-default .navbar-nav>li>a{
     color:rgb(65, 57, 57);
 }
 li hr{
  border-color:navy;
+ margin-top:5px;
+ margin-bottom: 5px;
+ width: 100%;
 }
 .nav li a{
     font-size: 1.4em;
-    margin-bottom: 5px;
-    padding: 0px;
+    padding: 10px;
     color: black;
     font-weight: bold;
+ 
 }
 div h2{
     width:100%;
@@ -90,4 +91,7 @@ section>h3{
   
   /********** Extra small devices only **********/
 @media (max-width: 767px) {
+    .navbar-default .navbar-collapse {
+        border-color: navy;
+    } 
 }
