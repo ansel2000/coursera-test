@@ -2,7 +2,7 @@
     font-family:"Comic Sans MS", cursive, sans-serif;
 }
 body{
-    background-image: linear-gradient(-45deg, navy, lightblue);
+    background-image: linear-gradient(to bottom right, lightblue, navy, lightblue);
 }
 .navbar{
     background-color:#E0F4FF;
